@@ -1,0 +1,38 @@
+"""
+Topic: Set
+Reference : NPTL:https://onlinecourses.nptel.ac.in/:Course-Python for Data Science
+"""
+"""
+Sets:
+ - Create Sets
+ - Modify Componenets
+ - Set Operations
+ - Union
+ - Intersection
+ - Difference
+ - Symmetric Difference
+"""
+"""
+Set:
+ a collection of distinct objects
+ Do not hold duplicate items
+ Stores elements in no particular order
+ Created using curly braces { }
+"""
+"""
+Create set marks consisting of marks of students
+"""
+marks = {55,45,65,50,45}
+""" print the set """
+print(marks)
+"""
+ Output : {65, 50, 45, 55} Duplicate 45 is removed
+ Removes duplicate items and returns a set of unique 
+ elements as output
+"""
+# set students name
+student_name = {"Ram","Shyam","Sita","Gita"}
+print(student_name)
+""" OUTPUT {'Sita', 'Gita', 'Ram', 'Shyam'}
+in output it can be ordered differently """
+1
