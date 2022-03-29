@@ -1,0 +1,20 @@
+"""
+Topic: Set
+Reference : NPTL:https://onlinecourses.nptel.ac.in/:Course-Python for Data Science
+"""
+"""
+Sets:
+ - Modify (Add) Componenets
+ add()
+ adds elements to the existing set student_name
+ Syntax:
+ set_name.add(object)
+"""
+# set students name
+student_name = {"Ram","Shyam","Sita","Gita"}
+print(student_name) 
+#{'Sita', 'Gita', 'Ram', 'Shyam'}
+student_name.add('Ganesh')
+print(student_name)
+#{'Shyam', 'Gita', 'Ganesh', 'Sita', 'Ram'}
+# new value can be added at the any positions
