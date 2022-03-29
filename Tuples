@@ -1,0 +1,31 @@
+"""
+Topic: Tuples
+Reference : NPTL:https://onlinecourses.nptel.ac.in/:Course-Python for Data Science
+"""
+"""
+Tuples
+ - Create tuple
+ - Indexing
+ - Access componenets
+ - Slicing
+ - Built in functions
+ - Combine multiple tuples
+ - Modify components
+"""
+"""
+Tuples
+ - Consists of an ordered collection of objects
+ - Some of the operations on tuples are similar to lists
+ - Tuples are enclosed between parenthesis ()
+ - Immutable
+ - Once created they cannot be modified
+ """
+"""
+ Create tuples
+ - Create a tuple with Student RollNo, Name, marks, department details 
+ """
+ student_details = (1,'Ram',90,'Comp') 
+# print the tuple
+print(student_details)
+# (1, 'Ram', 90, 'Comp')
+1
